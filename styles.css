@@ -107,6 +107,7 @@ audio {
 /* Мобильная версия */
 @media (max-width: 768px) {
   .strip {
+    animation: slide 15s linear infinite;
     width: 465.33%; /* 3 фона по 100% ширины */
   }
   
