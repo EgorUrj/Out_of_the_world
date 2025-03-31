@@ -118,6 +118,6 @@ audio {
   
   @keyframes slide {
     0% { transform: translateX(0); }
-    100% { transform: translateX(-66.666%); /* Сдвигаем на 2 фона */ }
+    100% { transform: translateX(-64.7%); /* Сдвигаем на 2 фона */ }
   }
 }
