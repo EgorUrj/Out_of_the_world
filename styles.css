@@ -45,9 +45,9 @@ body {
   background: linear-gradient(90deg, transparent, rgba(0,0,0,0.9));
 }
 
-.bg1 { background-image: url('/assets/background/puprle_girl.png'); }
-.bg2 { background-image: url('/assets/background/39.png'); }
-.bg3 { background-image: url('/assets/background/black_and_white.png'); }
+.bg1 { background-image: url('assets/background/puprle_girl.png'); }
+.bg2 { background-image: url('assets/background/39.png'); }
+.bg3 { background-image: url('assets/background/black_and_white.png'); }
 
 @keyframes slide {
   0% { transform: translateX(0); }
