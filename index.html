@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Out_of_the_world</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="strip">
+    <div class="bg bg1"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <div class="bg bg1"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+  </div>
+
+  <button class="music-toggle" id="musicToggle">🎵</button>
+  <div class="music-player" id="musicPlayer">
+    <audio controls src="/assets/music/KoruSe-mzmff-Retroshade.mp3"></audio>
+    <audio controls src="/assets/music/KoruSe-mzmff-Retroshade(Slowed).mp3"></audio>
+    <audio controls src="/assets/music/KoruSe-mzmff-Retroshade(Sped Up).mp3"></audio>
+  </div>
+
+  <script>
+    const toggleBtn = document.getElementById('musicToggle');
+    const musicPlayer = document.getElementById('musicPlayer');
+
+    toggleBtn.addEventListener('click', () => {
+      musicPlayer.classList.toggle('show');
+    });
+  </script>
+</body>
+</html>
